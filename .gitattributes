@@ -1,0 +1,13 @@
+# Line-ending and binary rules.
+
+# Batch files use CRLF.
+*.bat text eol=crlf
+
+# Test samples keep their exact bytes.
+tests/samples/* -text
+
+# Binary files.
+*.ico binary
+*.png binary
+*.exe binary
+*.pdb binary

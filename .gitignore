@@ -1,0 +1,27 @@
+# Build output.
+build/
+
+# MSVC intermediates.
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.res
+*.idb
+vc*.pdb
+
+# Python caches.
+__pycache__/
+
+# Editor and OS noise.
+.vs/
+.vscode/
+*.user
+*.suo
+Thumbs.db
+desktop.ini
+
+*.bak
+*.orig
+*~
